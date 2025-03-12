@@ -16,7 +16,7 @@ SIUBIU-AI-QUANT-SYSTEM
 │   │   ├── decision_agent.py # 決策代理
 │   │   ├── execution_agent.py# 執行代理
 │   │   └── risk_agent.py     # 風險管理代理
-│   ├── lib/                   # 通用工具庫
+│   ├── utils/                   # 通用工具庫
 │   │   ├── __init__.py
 │   │   ├── indicators.py     # 技術指標實現
 │   │   └── analysis.py       # 分析工具

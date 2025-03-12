@@ -39,4 +39,4 @@ type nul > requirements.txt
 type nul > setup.py
 
 echo File structure created successfully!
-pause 
+pause
