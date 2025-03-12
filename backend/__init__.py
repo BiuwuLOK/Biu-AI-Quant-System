@@ -4,8 +4,8 @@ SiuBiu-AI-Quant-System Backend Package
 This is the main backend package that includes all components of the quant system.
 """
 
-# Import all components from lib
-from .lib import (
+# Import all components from utils
+from backend.utils import (
     calculate_macd,
     calculate_rsi,
     calculate_bollinger_bands,
@@ -16,7 +16,7 @@ from .lib import (
 )
 
 # Import all agents with aliases
-from .agents import (
+from backend.agents import (
     AgentCoordinator as Coordinator,
     DataAgent,
     MACDStrategyAgent as MACDAgent,
@@ -26,9 +26,9 @@ from .agents import (
 )
 
 # Import packages
-from . import agents
-from . import lib
-from . import api
+from backend import agents
+from backend import lib
+from backend import api
 
 __all__ = [
     # Core packages
