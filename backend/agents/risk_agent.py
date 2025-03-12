@@ -6,7 +6,7 @@ This module implements risk management and portfolio analysis functionality.
 
 from typing import Dict, Any
 from . import BaseAgent
-from ..lib.analysis import (
+from ..utils.analysis import (
     calculate_returns,
     calculate_volatility,
     calculate_sharpe_ratio
