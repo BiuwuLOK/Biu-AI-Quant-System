@@ -6,44 +6,44 @@
 
 ```
 SIUBIU-AI-QUANT-SYSTEM
-├── backend/                               # 後端核心代碼                # Backend Core Code
-│   ├── agents/                            # 各種代理實現                # Various Agent Implementations
+├── backend/                               # 後端核心代碼              # Backend Core Code
+│   ├── agents/                            # 各種代理實現              # Various Agent Implementations
 │   │   ├── __init__.py                    #                             
-│   │   ├── coordinator.py                 # 中央協調器                  # Central Coordinator
-│   │   ├── base_agent.py                  # 代理基類                    # Base Agent Class
-│   │   ├── data_agent.py                  # 數據收集代理                # Data Collection Agent
-│   │   ├── macd_agent.py                  # MACD 策略代理               # MACD Strategy Agent
-│   │   ├── decision_agent.py              # 決策代理                    # Decision Agent
-│   │   ├── execution_agent.py             # 執行代理                    # Execution Agent
-│   │   └── risk_agent.py                  # 風險管理代理                # Risk Management Agent
-│   ├── utils/                             # 通用工具庫                  # Utility Library
+│   │   ├── coordinator.py                 # 中央協調器                # Central Coordinator
+│   │   ├── base_agent.py                  # 代理基類                  # Base Agent Class
+│   │   ├── data_agent.py                  # 數據收集代理              # Data Collection Agent
+│   │   ├── macd_agent.py                  # MACD 策略代理             # MACD Strategy Agent
+│   │   ├── decision_agent.py              # 決策代理                  # Decision Agent
+│   │   ├── execution_agent.py             # 執行代理                  # Execution Agent
+│   │   └── risk_agent.py                  # 風險管理代理              # Risk Management Agent
+│   ├── utils/                             # 通用工具庫                # Utility Library
 │   │   ├── __init__.py                    #                             
-│   │   ├── indicators.py                  # 技術指標實現                # Technical Indicators Implementation
-│   │   └── analysis.py                    # 分析工具                    # Analysis Tools
-│   ├── api/                               # API 接口                    # API Interface
+│   │   ├── indicators.py                  # 技術指標實現              # Technical Indicators Implementation
+│   │   └── analysis.py                    # 分析工具                  # Analysis Tools
+│   ├── api/                               # API 接口                  # API Interface
 │   │   ├── __init__.py                    #                             
-│   │   └── main.py                        # 主要 API 端點                # Main API Endpoint
-│   └── config.py                          # 配置文件                     # Configuration File
-├── frontend/                              # 前端代碼                     # Frontend Code
-│   ├── public/                            # 靜態資源                     # Static Resources
-│   ├── src/                               # 源代碼                       # Source Code
-│   │   ├── components/                    # React 組件                   # React Components
-│   │   │   ├── Dashboard.js               # 儀表盤組件                   # Dashboard Component
-│   │   │   ├── ControlPanel.js            # 控制面板                     # Control Panel
-│   │   │   ├── TradeHistory.js            # 交易歷史                     # Trade History
-│   │   │   └── Portfolio.js               # 投資組合                     # Portfolio
-│   │   ├── App.js                         # 主應用                       # Main Application
-│   │   ├── index.js                       # 入口文件                     # Entry Point
-│   │   └── styles/                        # 樣式文件                     # Style Files
-│   ├── package.json                       # 依賴配置                     # Dependency Configuration
-│   └── README.md                          # 前端文檔                     # Frontend Documentation
-├── rust_modules/ (Optional)               # Rust 擴展模塊（可選）         # Rust Extension Modules 
-│   ├── Cargo.toml                         # Rust 項目配置                # Rust Project Configuration
+│   │   └── main.py                        # 主要 API 端點             # Main API Endpoint
+│   └── config.py                          # 配置文件                  # Configuration File
+├── frontend/                              # 前端代碼                  # Frontend Code
+│   ├── public/                            # 靜態資源                  # Static Resources
+│   ├── src/                               # 源代碼                    # Source Code
+│   │   ├── components/                    # React 組件                # React Components
+│   │   │   ├── Dashboard.js               # 儀表盤組件                # Dashboard Component
+│   │   │   ├── ControlPanel.js            # 控制面板                  # Control Panel
+│   │   │   ├── TradeHistory.js            # 交易歷史                  # Trade History
+│   │   │   └── Portfolio.js               # 投資組合                  # Portfolio
+│   │   ├── App.js                         # 主應用                    # Main Application
+│   │   ├── index.js                       # 入口文件                  # Entry Point
+│   │   └── styles/                        # 樣式文件                  # Style Files
+│   ├── package.json                       # 依賴配置                  # Dependency Configuration
+│   └── README.md                          # 前端文檔                  # Frontend Documentation
+├── rust_modules/ (Optional)               # Rust 擴展模塊（可選）      # Rust Extension Modules 
+│   ├── Cargo.toml                         # Rust 項目配置             # Rust Project Configuration
 │   └── src/                               #                             
-│       └── lib.rs                         # Rust 代碼                    # Rust Code
-├── requirements.txt                       # Python 依賴                  # Python Dependencies
-├── setup.py                               # 安裝配置                     # Installation Configuration
-└── README.md                              # 項目主文檔                   # Project Main Documentation
+│       └── lib.rs                         # Rust 代碼                 # Rust Code
+├── requirements.txt                       # Python 依賴                # Python Dependencies
+├── setup.py                               # 安裝配置                   # Installation Configuration
+└── README.md                              # 項目主文檔                 # Project Main Documentation
 ```
 
 ## 系統架構
