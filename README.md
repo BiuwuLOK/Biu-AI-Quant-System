@@ -48,7 +48,7 @@ BIU-AI-QUANT-SYSTEM
 
 ## 系統架構
 
-以下是 SiuBiu-AI-Quant-System 的系統架構圖：
+以下是 XBiu-AI-Quant-System 的系統架構圖：
 
 ```mermaid
 flowchart TB
