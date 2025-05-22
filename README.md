@@ -1,11 +1,11 @@
-# SiuBiu-AI-Quant-System
+# XiaoBiu-AI-Quant-System
 
 在做了在做了, 這是個 Ai Quant System
 
 ## 文件架構
 
 ```
-SIUBIU-AI-QUANT-SYSTEM
+BIU-AI-QUANT-SYSTEM
 ├── backend/                               # 後端核心代碼              # Backend Core Code
 │   ├── agents/                            # 各種代理實現              # Various Agent Implementations
 │   │   ├── __init__.py                    #                             
