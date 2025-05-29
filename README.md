@@ -13,9 +13,36 @@
 ## 主要目錄結構
 
 ```
-backend/      # 後端核心（代理、API、工具）
-frontend/     # 前端 React 應用
-rust_modules/ # Rust 擴展（可選）
+backend/                  # 後端核心 Core backend
+├── agents/               # 各種代理 Agents
+│   ├── base_agent.py
+│   ├── coordinator.py
+│   ├── data_agent.py
+│   ├── ...
+├── api/                  # API 端點 API endpoints
+│   └── main.py
+├── utils/                # 工具與指標 Utilities & indicators
+│   ├── analysis.py
+│   └── indicators.py
+├── config.py             # 配置 Configuration
+...
+frontend/                 # 前端 React 應用 React frontend
+├── src/
+│   ├── App.jsx
+│   ├── index.jsx
+│   └── components/
+│       └── ...
+├── public/
+├── package.json
+...
+rust_modules/             # Rust 擴展（可選） Rust extensions (optional)
+├── Cargo.toml
+├── src/
+│   └── lib.rs
+...
+README.md                 # 主文檔 Main documentation
+requirements.txt          # Python 依賴 Python dependencies
+setup.py                  # 安裝配置 Setup configuration
 ```
 
 ---
