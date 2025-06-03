@@ -1,4 +1,4 @@
-# XiaoBiu-AI-Quant-System
+# Xiu BIU AI Quantitative Trading System
 
 一個模組化、可擴展的 AI 量化交易系統，結合多代理架構與現代前後端技術。
 
