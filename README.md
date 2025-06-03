@@ -1,8 +1,9 @@
 # Xiu BIU AI Quantitative Trading System
 
 一個模組化、可擴展的 AI 量化交易系統，結合多代理架構與現代前後端技術。
-** This Project is still on the Progress ! Please DO NOT install in raw conditions **
-** Only the core algo and agents function is working (MACD, RSI, AI/ML suggestion). **
+
+**This Project is still on the Progress ! Please DO NOT install in raw conditions.**
+**Only the core algo and agents function is working (MACD, RSI, AI/ML suggestion).**
 
 ---
 
