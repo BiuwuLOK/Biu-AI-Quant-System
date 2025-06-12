@@ -1,4 +1,4 @@
-# Xiu BIU AI Quantitative Trading System
+# Max Building this AI Quantitative Trading System (X.BIU.AI.QT)
 
 一個模組化、可擴展的 AI 量化交易系統，結合多代理架構與現代前後端技術。
 
